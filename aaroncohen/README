@@ -1,0 +1,3 @@
+To make, you must have gcc-multilib (or your distro's equivalent) installed
+
+gcc -m32 shell.c

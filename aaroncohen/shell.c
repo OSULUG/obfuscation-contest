@@ -1,0 +1,9 @@
+int main()
+{
+    const char *hello = "Hello, world!\n";
+    int (*wat)() = (int(*)()) "\xe8\x00\x00\x00\x00\x59\x80\xe9\x14\x31\xc0\x31\xdb\x31\xd2\xb0\x04\xb3\x01\xb2\x0f\xcd\x80\xc3";
+
+    wat();
+
+    return 0;
+}
