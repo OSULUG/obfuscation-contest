@@ -1,0 +1,1 @@
+all: arrays cpp
